@@ -28,7 +28,30 @@ console.log(minToSec(2))
 function lessThan(x,y) {
     if (x * y <= 100)
         return "True"
-    } else {
-        "False"
+         else return "False" 
 }
 console.log(lessThan(10,9))
+
+//create a function that has an array of numbers and returns both min and max numbers in order
+// minMax [1, 2, 3, 4, 5,] -> [1, 5]
+
+function minMax(arr) {
+    let outputArr = []
+    let minArr = arr[0]
+    let maxArr = arr[0]
+
+    for(let i = 1; i < arr.length; i++) {
+        if(arr[i] < minArr) {
+            minArr = arr[i]
+    }
+        if (arr[i] > maxArr) {
+        maxArr = arr[i]
+    }
+}
+    outputArr.push(minArr)
+    outputArr.push(maxArr)
+
+    return outputArr
+
+}
+console.log(minMax([1, 2, 3, 4, 5]))
