@@ -16,3 +16,9 @@ function inc(x) {
 console.log(inc(1))
 
 //Create a function that takes and integer minutes and convert it to seconds.
+
+function minToSec(min) {
+    return (min * 60)
+}
+//Function takes (min) value and then times the value by 60 and returns it when invoked.
+console.log(minToSec(2))
