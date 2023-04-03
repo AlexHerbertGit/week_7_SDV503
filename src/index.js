@@ -27,7 +27,8 @@ console.log(minToSec(2))
 
 function lessThan(x,y) {
     if (x * y <= 100)
-    return "True"
-    else return "False"
+        return "True"
+    } else {
+        "False"
 }
 console.log(lessThan(10,9))
