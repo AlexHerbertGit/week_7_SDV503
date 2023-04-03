@@ -22,3 +22,12 @@ function minToSec(min) {
 }
 //Function takes (min) value and then times the value by 60 and returns it when invoked.
 console.log(minToSec(2))
+
+//Create a function that takes two numbers returns "true" if the sum of both numbers is less than 100. Otherwise returns false.
+
+function lessThan(x,y) {
+    if (x * y <= 100)
+    return "True"
+    else return "False"
+}
+console.log(lessThan(10,9))
